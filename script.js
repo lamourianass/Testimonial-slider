@@ -2,7 +2,7 @@ import { testimonials } from './testimonials.js'
 
 const imgEl = document.querySelector('img')
 const testimonialEl = document.querySelector('.text')
-
+const nameEl = document.querySelector('.username')
 
 let index = 0
 
