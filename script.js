@@ -14,7 +14,10 @@ function updateTestimonial() {
   testimonialEl.textContent = testimonial
   nameEl.textContent = name
   index++
+  if(index === testimonials.length) {
+    index = 0
+  }
   setTimeout(() => {
     updateTestimonial()
-  }, 2000)
+  }, 10000)
 }
